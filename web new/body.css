@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 .current{border-bottom:3px red;}
-body{padding:0;margin:0;margin-top:50px;background:url(back.jpg);background-repeat:no-repeat;background-size:100%;}
+body{padding:0;margin:0;margin-top:50px;background:#686868;background-repeat:no-repeat;background-size:100%;}
 #navbar{height:50px;width:100%;background-color: rgba(1,1,2,0.8);background-size:100%;position:fixed;top:0;}
 ul{list-style:none;margin:0;}
 li{float:left;display:inline;color:solid black;list-style-position: inside;text-align:center;margin-top:6px;font-family: 'Ubuntu', sans-serif;width:25%;}
@@ -14,7 +14,7 @@ li{float:left;display:inline;color:solid black;list-style-position: inside;text-
 #nav4:hover{color:#909090;-webkit-transition: color .5s linear;-moz-transition: color .5s linear;transition: color .5s linear;}
 #content{margin-top:5%;background-color:white;opacity:0.8;width:98%;border-radius:20px;}
 #timetable{margin-top:5%;background-color:white;opacity:0.8;width:98%;border-radius:20px;}
-#timeta1{border:1px solid grey;border-radius:10px;width:98%}
+#timeta1{border:1px solid grey;border-radius:10px;width:98%,height:98%;}
 #timeta1 td{border:1px solid grey;border-radius:10px;text-align:center;font-family: 'Ubuntu', sans-serif;font-size:20px;}
 #timeta1 tr td:hover{color:white;background-color:#0066FF;-webkit-transition: color .4s linear;-moz-transition: color .4s linear;transition: color .4s linear;cursor:pointer;}
 #timeta1 tr td:active{color:white;background-color:#0066FF;}
