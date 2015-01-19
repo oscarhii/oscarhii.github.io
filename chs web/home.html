@@ -5,6 +5,17 @@
 
    
 </head>
+<script>
+function enter(e)
+    {
+        // look for window.event in case event isn't passed in
+        if (typeof e == 'undefined' && window.event) { e = window.event; }
+        if (e.keyCode == 13)
+        {
+            document.getElementById('submit').click();
+        }
+    }
+</script>
 <body>
 <div id="navbar">
 <ul>
@@ -14,15 +25,15 @@
 <li><a id="nav4" href="#">关于我们</a></li>
 </ul>
 <div id="userpass">
-<input id="username" placeholder="Username"></input>
-<input id="pass" type="password" placeholder="Password"></input>
-<input id="submit" type="submit" value="Sign In"></input>
+<input id="username" placeholder="Username" name="user" onkeypress="enter(event);"></input>
+<input id="pass" type="password" placeholder="Password" name="pass" onkeypress="enter(event);"></input>
+<input id="submit" type="submit" value="Sign In" name="submit" onclick=""></input>
 </div>
 </div>
 <center>
 <div id="content">
 <center>
-<h1>Ooops!Nothing new here now.</h1>
+<h1 id="words">Ooops!Nothing new here now.</h1>
 </center>
 </div>
 </center>

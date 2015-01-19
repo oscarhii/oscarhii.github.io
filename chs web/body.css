@@ -4,16 +4,14 @@ body{padding:0;margin:0;margin-top:50px;background:#686868;background-repeat:no-
 #navbar{height:65px;width:100%;background-color: #303030;background-size:100%;position:fixed;top:0;}
 ul{list-style:none;margin:0.1%;}
 li{float:left;display:inline;color:solid black;list-style-position: inside;text-align:center;margin-top:0%;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;width:15%;}
-#nav1{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;}
-#nav2{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;}
-#nav3{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;}
-#nav4{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;}
+#nav1,#nav2,#nav3,#nav4{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;height:35px;}
 #nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover{background-color:#000000;-webkit-transition: background-color .5s linear;-moz-transition: background-color .5s linear;transition: background-color .5s linear;}
 #userpass{float:right;width:600px;margin-top:0.5%;}
 #username{margin-top:0.5%;height:35px;border-radius:10px;width:40%;border: 0px solid;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;font-size:15px;}
 #pass{margin-top:0.5%;height:35px;border-radius:10px;width:40%;border: 0px solid;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;font-size:15px;}
 #submit{margin-top:0.5%;border-radius:10px;width:15%;height:35px;border: 0px solid;background-color:#0066FF;color:#FFFFFF;text-decoration:none;font-size:18px;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;}
 #submit:hover{background:linear-gradient(#0033FF,#0066FF);-webkit-transition: background-color .1s linear;-moz-transition: background-color .1s linear;transition: background-color .1s linear;}
+#submit:active{background:linear-gradient(#00FF33,#0066FF);}
 #content{margin-top:5%;background-color:white;opacity:0.8;width:98%;border-radius:20px;}
 #timetable{margin-top:5%;background-color:white;opacity:0.8;width:98%;border-radius:20px;}
 #timeta1{border:1px solid grey;border-radius:10px;width:98%,height:98%;}
