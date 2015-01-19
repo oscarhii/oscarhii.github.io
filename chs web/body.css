@@ -5,7 +5,7 @@ body{padding:0;margin:0;margin-top:50px;background:#686868;background-repeat:no-
 ul{list-style:none;margin:0.1%;}
 li{float:left;display:inline;color:solid black;list-style-position: inside;text-align:center;margin-top:0%;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;width:15%;}
 #nav1,#nav2,#nav3,#nav4{display:inline-block;color:#FFFFFF ;font-size:25px;text-align:center;text-decoration:none;border-radius:10px;margin-top:2%;padding:10px;width:75%;height:35px;}
-#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover{background-color:#000000;-webkit-transition: background-color .5s linear;-moz-transition: background-color .5s linear;transition: background-color .5s linear;}
+#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover{background-color:#000000;-webkit-transition: background-color .5s linear;-moz-transition: background-color .5s linear;transition: background-color .5s linear;padding:12px;}
 #userpass{float:right;width:600px;margin-top:0.5%;}
 #username{margin-top:0.5%;height:35px;border-radius:10px;width:40%;border: 0px solid;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;font-size:15px;}
 #pass{margin-top:0.5%;height:35px;border-radius:10px;width:40%;border: 0px solid;font-family:Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;font-size:15px;}
